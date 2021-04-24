@@ -1,0 +1,15 @@
+<h1> Seja bem vindo ao curso de Angular </h1>
+<h4 class="text-danger"> {{ anuncio }}</h4>
+
+<div class="row">
+    <div class="col">
+        <app-card-produto [foto]="foto" [nomeProduto]="nomeProduto" [promocao]="promocao" [idProduto]="idProduto" [dataValidade]="dataValidade" [precoProduto]="precoProduto">
+        </app-card-produto>
+    </div>
+
+
+    <div class="col">
+        <app-card-produto foto="https://th.bing.com/th/id/OIP.uI0A38Ui1cztQku2k-jv-QHaE8?w=255&h=180&c=7&o=5&pid=1.7" nomeProduto="Viagem" promocao="false" idProduto="15" dataValidade="2021-8-31" precoProduto="2500.00">
+        </app-card-produto>
+    </div>
+</div>
